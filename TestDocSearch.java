@@ -12,7 +12,7 @@ public class TestDocSearch {
     {
         Handler h = new Handler("./technical/");
         URI rootPath = new URI("http://localhost/");
-        assertEquals("There are 10 total files to search.", h.handleRequest(rootPath));
+        assertEquals("There are 1 total files to search.", h.handleRequest(rootPath));
 	}
 
 	@Test 
